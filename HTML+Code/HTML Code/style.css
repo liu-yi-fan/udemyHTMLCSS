@@ -1,0 +1,225 @@
+html,body{
+    height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'myFont';
+    src: url(./清松手寫體2.ttf);
+}
+
+*{
+ font-family: 'myFont',sans-serif;   
+}
+
+/* *{color: darksalmon;} */
+/* h1{
+    color: crimson;
+  }
+  p{
+    color: rgb(0, 0, 233);
+  } */
+  /* h1.deepblue{
+      color: darkblue;
+  } */
+/* *::selection{
+    background-color: lightcoral;
+}
+
+  h1,h2{
+      color: darkcyan;
+  }
+
+  div.link1 a{
+      color:darkolivegreen;
+  }
+
+  div.link2 b{
+    color:rgba(106, 28, 151, 0.5);
+}
+
+input[type="text"]{
+    color: darkorchid;
+} */
+
+/* textarea:hover {
+    background-color: deeppink;
+} */
+
+/* input[type="text"]:active{
+    color: darkseagreen;
+}
+
+tr:nth-child(2){
+    color: darkgreen;
+}s
+
+h1::before{
+    content: "!!";
+    color: darkorchid;
+}
+
+p::after{
+    content: "@@";
+    color: darkorange;
+}
+
+p::first-letter{
+    font-size: 2.5rem;
+} */
+
+/* p{
+    font-size: 1rem;
+} */
+
+/* h1.pic{
+    background-color: yellowgreen;
+    color: tomato;
+    padding: 1rem 2rem;
+    border: thick double pink;
+} */
+
+/* h1{
+    background-color: rebeccapurple;
+    color: salmon;
+    width: 50vw;
+    height: 30vh;
+} */
+
+/* a.survey{
+    background-color: salmon;
+    margin: vw vw;
+    display: block;
+    width: 20vw;
+    height: 10vw;
+    color: seagreen;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+}
+
+.survey:hover{
+    background-color: tomato;
+}
+
+div.box1{
+    width: 50vw;
+    height: 50vh;
+    background-color: tomato;
+}
+
+.pic{
+    width: 550px;
+    height: 350px;
+} */
+
+/* div.container{
+    width: 500px;
+    height: 2000px;
+    background-color: yellowgreen;
+    position: relative;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.box1{
+    background-color: cadetblue;
+}
+
+.box2{
+    background-color: rgb(255, 52, 52);
+    position: sticky;
+    top: 10px;
+    right: 10px;
+}
+
+.box3{
+    background-color: darkgreen;
+    
+}
+
+ol{
+    list-style-type: lower-alpha;
+} */
+
+
+/* table,
+th,
+td{
+    border-bottom: 10px solid rgb(0, 125, 163);
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 0.5rem 0.75rem;
+}
+
+th{
+    background-color: rgb(202, 157, 72);
+    color: palevioletred;
+    font-size: 1.5rem;
+}
+
+tr:hover{
+    background-color: plum;
+    color: salmon;
+} */
+/* 
+h1{
+    
+    transition: all 2s ease-in-out;
+}
+
+h1:hover{
+    background-color: salmon;
+    color: saddlebrown;
+} */
+
+.pic{
+    width: 550px;
+    height: 350px;
+    cursor: pointer;
+}
+
+div.container{
+    width: 500px;
+    height: 500px;
+    background-color: skyblue;
+    border-radius: 50px;
+    overflow: scroll;
+}
+
+div.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(71, 56, 100);
+    animation-name: cross;
+    animation-duration: 2s;
+    position: relative;
+    animation: cross 1s ease-in forwards;
+    border-radius: 50%;
+}
+
+div.box2{
+    background-color: black;
+    width: 50vw;
+    height: 100vh;
+}
+
+@keyframes cross {
+    from{
+        background-color: rgb(71, 56, 100);
+        top: 0;
+        left: 0;
+    }
+    to{
+        background-color: rgb(230, 63, 45);
+        top: 500px;
+        left: 500px;
+    }
+}

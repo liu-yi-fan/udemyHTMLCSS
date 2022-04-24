@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$themeColor: blue;
+
+@import './header';
+
+@mixin flexbox($direc) {
+    display: flex;
+    flex-direction: $direc;
+}
+
+div.link{
+    @include flexbox(row)
+}
+.pic{
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
